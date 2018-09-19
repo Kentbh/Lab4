@@ -1,0 +1,6 @@
+Input                 Output           	              Test Condition
+{37 12 17 59}         {59 37 17 12}                   Normal
+null                  illegal argument expression     exception
+{1 1 1 1 1}           {1 1 1 1 1}                     all the same number
+{1 a 5 2 3}           illegal argument                exception
+{1 1 20 30 40}        {40 30 20 1 1}                  one number is the same
